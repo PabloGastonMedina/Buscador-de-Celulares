@@ -6,6 +6,114 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1 class="Titulo">Buscador de celulares</h1>
+
+    <!--CONTENEDOR DE LAS OPCIONES PARA BUSCAR-->
+    <form class="container">
+        <!--Primera parte de conteiner-->
+      <div class="container1">
+        <!--CAJA 1 PARA BUSCAR POR MARCAS-->
+        <div class="caja_marcas">
+                <label class="marcas_titulo" for="marca">Marca</label>
+                <select class="marcas_select" id="marca">
+                    <option value="">Seleccione</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Motorola">Motorola</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="Huawei">Huawei</option>
+                </select>
+        </div>
+        <!--CAJA 2 PARA BUSCAR POR AÑO-->
+        <div class="caja_years">
+                <label for="years">Año</label>
+                <select class="years_select" id="years">
+                    <option value="">Seleccione</option>
+                </select>
+        </div>
+        <!--CAJA 3 PARA BUSCAR POR PRECIO MINIMO-->
+        <div class="caja_precioMinimo">
+                <label for="minimo">Precio Min</label>
+                <select class="precioMinimo_select" id="minimo">
+                    <option value="">Seleccione</option>
+                    <option value="20000">20,000</option>
+                    <option value="50000">50,000</option>
+                    <option value="80000">80,000</option>
+                    <option value="100000">100,000</option>
+                    <option value="120000">120,000</option>
+                    <option value="150000">150,000</option>
+                    <option value="160000">160,000</option>
+                    <option value="200000">200,000</option>
+                </select>
+        </div>
+        <!--CAJA 4 PARA BUSCAR POR PRECIO MAXIMO-->
+        <div class="caja_precioMaximo">
+                <label for="maximo">Precio Max</label>
+                <select class="precioMaximo_select" id="maximo">
+                    <option value="">Seleccione</option>
+                    <option value="20000">20,000</option>
+                    <option value="50000">50,000</option>
+                    <option value="80000">80,000</option>
+                    <option value="100000">100,000</option>
+                    <option value="120000">120,000</option>
+                    <option value="150000">150,000</option>
+                    <option value="160000">160,000</option>
+                    <option value="200000">200,000</option>
+                </select>
+        </div>
+      </div>
+      <!--Segunda parte de conteiner-->
+      <div class="conteiner2">
+        <!--CAJA5 PARA BUSCAR POR MEMORIA RAM-->
+        <div class="caja_ram">
+                <label for="ram">Ram</label>
+                <select class="ram_select" id="ram">
+                        <option value="">Seleccione</option>
+                        <option value="2">2</option>
+                        <option value="4">4</option>
+                        <option value="8">8</option>
+                        <option value="16">16</option>
+                        <option value="32">32</option>
+                </select>
+        </div>
+        <!--CAJA6 PARA BUSCAR POR PANTALLA-->
+        <div class="caja_pantalla">
+                <label for="pantalla">Pantalla</label>
+                <select class="pantalla_select" id="pantalla">
+                        <option value="">Seleccione</option>
+                        <option value="amoled">Amoled</option>
+                        <option value="moled">Moled</option>
+                        <option value="ips">IPS</option>
+                </select>
+        </div>
+        <!--CAJA7 PARA BUSCAR POR TTPO DE COLOR-->
+        <div class="caja_color">
+                <label for="color">Color</label>
+                <select class="color_select" id="color">
+                        <option value="">Seleccione</option>
+                        <option value="Negro">Negro</option>
+                        <option value="Azul">Azul</option>
+                        <option value="Blanco">Blanco</option>
+                        <option value="Rojo">Rojo</option>
+                </select>
+        </div>
+      </div>
+    </form>
+
+    <!--SECCION RESULTADOS-->
+    <div class="caja_resultados">
+        <h2 class="resultados_titulo">Resultados</h2>
+        <div class="resultados_todos" id="resultado">
+            <!--Aqui irian todos los resultados de las busquedas-->
+
+        </div>
+    </div>
+
+    <a class="linkedin" href="https://www.linkedin.com/in/pablo-gast%C3%B3n-medina/">Pablo Medina</a>
+    <br>
+    <a class="codigoJuan" href="https://www.codigoconjuan.com">Inspirado en Código Con Juan</a>
     
+
 </body>
 </html>
