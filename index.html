@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buscador de celulares</title>
+
+    <!--FUENTES DE GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1 class="Titulo">Buscador de celulares</h1>
+    <h1 class="titulo">Buscador de celulares</h1>
 
     <!--CONTENEDOR DE LAS OPCIONES PARA BUSCAR-->
     <form class="container">
         <!--Primera parte de conteiner-->
       <div class="container1">
         <!--CAJA 1 PARA BUSCAR POR MARCAS-->
-        <div class="caja_marcas">
+        <div class="caja_marcas cajas">
                 <label class="marcas_titulo" for="marca">Marca</label>
                 <select class="marcas_select" id="marca">
                     <option value="">Seleccione</option>
@@ -26,14 +33,14 @@
                 </select>
         </div>
         <!--CAJA 2 PARA BUSCAR POR AÑO-->
-        <div class="caja_years">
+        <div class="caja_years cajas">
                 <label for="years">Año</label>
                 <select class="years_select" id="years">
                     <option value="">Seleccione</option>
                 </select>
         </div>
         <!--CAJA 3 PARA BUSCAR POR PRECIO MINIMO-->
-        <div class="caja_precioMinimo">
+        <div class="caja_precioMinimo cajas">
                 <label for="minimo">Precio Min</label>
                 <select class="precioMinimo_select" id="minimo">
                     <option value="">Seleccione</option>
@@ -48,7 +55,7 @@
                 </select>
         </div>
         <!--CAJA 4 PARA BUSCAR POR PRECIO MAXIMO-->
-        <div class="caja_precioMaximo">
+        <div class="caja_precioMaximo cajas">
                 <label for="maximo">Precio Max</label>
                 <select class="precioMaximo_select" id="maximo">
                     <option value="">Seleccione</option>
@@ -66,7 +73,7 @@
       <!--Segunda parte de conteiner-->
       <div class="conteiner2">
         <!--CAJA5 PARA BUSCAR POR MEMORIA RAM-->
-        <div class="caja_ram">
+        <div class="caja_ram cajas">
                 <label for="ram">Ram</label>
                 <select class="ram_select" id="ram">
                         <option value="">Seleccione</option>
@@ -78,7 +85,7 @@
                 </select>
         </div>
         <!--CAJA6 PARA BUSCAR POR PANTALLA-->
-        <div class="caja_pantalla">
+        <div class="caja_pantalla cajas">
                 <label for="pantalla">Pantalla</label>
                 <select class="pantalla_select" id="pantalla">
                         <option value="">Seleccione</option>
@@ -88,7 +95,7 @@
                 </select>
         </div>
         <!--CAJA7 PARA BUSCAR POR TTPO DE COLOR-->
-        <div class="caja_color">
+        <div class="caja_color cajas">
                 <label for="color">Color</label>
                 <select class="color_select" id="color">
                         <option value="">Seleccione</option>
@@ -106,7 +113,6 @@
         <h2 class="resultados_titulo">Resultados</h2>
         <div class="resultados_todos" id="resultado">
             <!--Aqui irian todos los resultados de las busquedas-->
-
         </div>
     </div>
 
