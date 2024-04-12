@@ -36,9 +36,9 @@ body{
 /*CONTENEDOR DE CAJA PARA BUSCAR*/
 
 .container{
-    width:80%;
+    width:70%;
     height: 30vh;
-    background-color: white; 
+    background-color: #e3dfbad2; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -55,8 +55,10 @@ label{
 }
 
 select{
-    font-size: 1.3;
-    background-color: #e3dfba;;
+    font-size: 1.2rem;
+    background-color: #93ccc6c7;
+    width: 100%;
+
 }
 
 
@@ -67,15 +69,34 @@ select{
     justify-content: space-around;
 }
 
-
-
-
 .caja_resultados{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 80%;
-    background-color: #e3dfba;
+    width: 70%;
+    background-color: #e3dfbad2;
+    padding: 5rem 0 6rem 0;
 }
 
+.resultados_titulo{
+  font-size: 3rem;
+  padding: 3rem;
+  color:  black;
+}
+
+.resultados_todos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p{
+  width: 100%;
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+}
