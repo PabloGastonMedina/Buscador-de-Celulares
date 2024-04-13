@@ -100,3 +100,8 @@ p{
   text-align: center;
   padding: 3rem 0 3rem 0;
 }
+
+.noHayResultado{
+  font-size: 3rem;
+  color: red;
+}
